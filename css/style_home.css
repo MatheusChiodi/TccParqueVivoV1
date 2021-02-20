@@ -1,0 +1,100 @@
+* {
+    font-family: Garamond;
+}
+
+body {
+    background: black;
+}
+
+nav {
+    float: top;
+    width: 100%;
+    margin: 0;
+    display: block;
+    font-size: 20px;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 11%;
+    margin-top: -3.5em;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(3, 3, 3);
+    list-style: none;
+    border: 3px solid white;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /*visual do link */
+    text-decoration: none;
+    color: rgb(197, 186, 186);
+}
+
+.page-top:hover {
+    background: linear-gradient(90deg, #1e0fbe, #e70909, #46b910, #d1d411);
+    border-bottom: 3px solid rgb(234, 211, 0);
+    border-top: 3px solid rgb(234, 211, 0);
+}
+
+.page-top {}
+
+.pg1:hover {
+    background: linear-gradient(90deg, #130f40, #2d2490, #2d2490, #130f40);
+    border-bottom: 3px solid rgb(0, 47, 255);
+    border-top: 3px solid rgb(0, 47, 255);
+}
+
+.pg1 {}
+
+.pg2:hover {
+    background: linear-gradient(90deg, #801212, #aa1e1e, #aa1e1e, #801212);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    border-top: 3px solid rgb(255, 0, 0);
+}
+
+.pg2 {}
+
+.pg3:hover {
+    background: linear-gradient(90deg, #1b4b13, #4b9620, #4b9620, #1b4b13);
+    border-bottom: 3px solid rgb(94, 255, 0);
+    border-top: 3px solid rgb(94, 255, 0);
+}
+
+.pg3 {}
+
+.pg4:hover {
+    background: linear-gradient(90deg, #9e9c10, #bbb81c, #bbb81c, #9e9c10);
+    border-bottom: 3px solid rgb(234, 211, 0);
+    border-top: 3px solid rgb(234, 211, 0);
+}
+
+.conteudo {
+    position: static;
+    margin-top: 2%;
+}
+
+.navcima {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 25px;
+}

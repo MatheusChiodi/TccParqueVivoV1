@@ -1,0 +1,100 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: linear-gradient(to bottom, rgb(140, 221, 125), rgb(75, 195, 54), rgb(24, 126, 6));
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    @media screen and (max-width:470px) {
+        body {
+            background: #202020;
+        }
+    }
+    
+    a {
+        font-size: 20px;
+        color: white;
+        padding: 0px 60px 0px 80px;
+    }
+    
+    table,
+    td,
+    th {
+        border: 1px solid white;
+    }
+    
+    .chat_reload {
+        overflow-y: scroll;
+    }
+    
+    table {
+        border: 1px solid white;
+        border-radius: 50px;
+    }
+    
+    .mensagem {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    
+    .esquerda {
+        text-align: left;
+        color: white;
+        background: rgb(56, 34, 22, 0.5);
+        width: 40%;
+    }
+    
+    .direita {
+        text-align: right;
+        color: white;
+        background: rgb(56, 34, 22, 0.6);
+        width: 40%;
+    }
+    
+    .titulo_mensagem {
+        text-align: center;
+        color: white;
+        background: rgb(56, 34, 22, 0.9);
+        font-size: 25px;
+    }
+    
+    .titulo {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    
+    input[type=text]:focus {
+        background-color: #7bed9f;
+        color: black;
+        font-weight: bold;
+        transition: background-color 1s;
+    }
+    
+    .enviar {
+        border: 0;
+        color: white;
+        padding: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #7bed9f, #2ed573, #009432, #009432);
+        background-size: 400%;
+    }
+    
+    .chat_reload {
+        overflow: auto;
+        width: 200px;
+    }

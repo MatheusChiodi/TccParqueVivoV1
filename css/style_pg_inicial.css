@@ -1,0 +1,181 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgba(36, 143, 22, 0.9);
+}
+
+.texto {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    padding: 0px 60px 0px 80px;
+}
+
+.navcima {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 30px;
+    color: white;
+}
+
+.tl {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sbtl {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.linksimg {
+    width: 350px;
+    height: 350px;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.lk1 {}
+
+.lk2 {
+    left: 50%;
+    right: 50%;
+}
+
+.lk3 {
+    left: 50%;
+}
+
+.linksimg:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.ctlink {
+    background: rgba(96, 67, 51, 0.7);
+}
+
+.backgroudlink {
+    background: rgba(86, 221, 71, 0.6);
+}
+
+.titulolink {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.conteudolink {
+    color: white;
+    font-size: 25px;
+}
+
+.close {
+    color: white;
+    font-size: 30px;
+}
+
+.close:hover {
+    color: rgba(96, 67, 51, 0.7);
+    border: none;
+}
+
+img,
+p {
+    display: inline-block;
+    float: left;
+}
+
+.c1 {
+    background: url("/TCC/imagem/logo");
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.c2 {
+    background-color: white;
+}
+
+.c3 {
+    background-color: rgb(108, 255, 115);
+}
+
+.c4 {
+    background: rgb(70, 48, 36);
+}
+
+.marrom {
+    color: rgb(70, 48, 36);
+}
+
+.slides {
+    width: 50px;
+    height: 500px;
+}
+
+.preto {
+    color: black;
+}
+
+.rodape {
+    color: white;
+}
+
+.tlrodape {
+    color: white;
+    font-size: 40px;
+}
+
+.subtlrodape {
+    color: rgba(226, 215, 215, 0.781);
+    font-size: 30px;
+}
+
+.conteudorodape {
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 25px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
